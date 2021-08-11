@@ -14,11 +14,10 @@ author: AV Web
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Us: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -40,8 +39,8 @@ round-avatar: true
 social-network-links:
   email: "amadorvalleyweb@gmail.com"
   linkedin: amador-valley-web-development
+  github: avwebdev
 #  facebook: deanattali
-#  github: avwebdev
 #  twitter: daattali
 #  patreon: DeanAttali
 #  youtube: c/daattali
@@ -78,6 +77,18 @@ share-links-active:
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
 # url-pretty: "MyWebsite.com"
+
+officers:
+  - name: Yash Totale
+    website: https://yashtotale.web.app/
+  - name: Subha Das
+    website: https://www.linkedin.com/in/subha-das-760b861aa/
+  - name: Aron Thakur
+    website: https://www.linkedin.com/in/aron-thakur-910846209/
+  - name: Keerthi Kalyaan
+    website: https://www.linkedin.com/in/keerthi-kalyaan-004a9018a/
+  - name: Saahas Buricha
+  - name: Jiakang Chen
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50

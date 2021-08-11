@@ -391,8 +391,16 @@ footer a {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1rem;
 }
+
+footer .officers {
+  text-align: center;
+  margin: 0.75rem 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: {{ site.footer-text-col | default: "#777777" }} !important;
+}
+
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
@@ -410,9 +418,6 @@ footer .footer-custom-content {
 }
 
 @media (min-width: 768px) {
-  footer {
-    padding: 3.125rem 0;
-  }
   footer .footer-links {
     font-size: 1.125rem;
   }
