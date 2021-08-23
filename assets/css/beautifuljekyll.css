@@ -119,6 +119,18 @@ img {
   }
 }
 
+/* Misc */
+
+.discord-join {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .discord-join img {
+    width: 100px;
+  }
+}
+
 /* --- Navbar --- */
 
 .navbar-custom {
@@ -210,6 +222,20 @@ img {
   border-width: 0.4em;
 }
 
+.nav-title-desktop {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .nav-title-mobile {
+    display: none;
+  }
+
+  .nav-title-desktop {
+    display: block;
+  }
+}
+
 @media (min-width: 1200px) {
   .navbar-custom {
     padding-top: 1.25rem;
@@ -233,9 +259,7 @@ img {
   .navbar-expand-xl .navbar-nav .nav-item:not(.dropdown):last-child .nav-link {
     padding-right: 0;
   }
-}
 
-@media (min-width: 1200px) {
   .navbar-custom .nav-item.dropdown:hover {
     background: rgba(0, 0, 0, 0.1);
   }
@@ -669,7 +693,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.6875rem;
+  font-size: 1.3875rem;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -703,6 +727,11 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   display: none;
 }
 @media (min-width: 1200px) {
+  .intro-header .page-heading .page-subheading,
+  .intro-header .post-heading .post-subheading {
+    font-size: 1.6875rem;
+  }
+
   .intro-header {
     margin-top: 8.125rem;
   }

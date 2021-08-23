@@ -4,6 +4,8 @@ layout: page
 
 {{ content }} {% assign posts = paginator.posts | default: site.posts %}
 
+<p align="center" class="discord-join"><a target="_blank" class="discord-join-link" href="{{ site.social-network-links.discord }}"><img src="https://snrclan.com/wp-content/uploads/2020/02/join-discord-png-13.png" width="150" /></a></p>
+
 <div class="posts-list">
   {% for post in posts %}
   <article class="post-preview">
