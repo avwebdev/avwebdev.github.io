@@ -14,7 +14,7 @@ author: AV Web
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Us: "aboutme"
+  About Us: "about"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -88,7 +88,9 @@ officers:
   - name: Keerthi Kalyaan
     website: https://www.linkedin.com/in/keerthi-kalyaan-004a9018a/
   - name: Saahas Buricha
+    website: https://www.linkedin.com/in/saahas-buricha-430896217/
   - name: Jiakang Chen
+    website: https://www.linkedin.com/in/jiakang-chen-78b83820a/
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
