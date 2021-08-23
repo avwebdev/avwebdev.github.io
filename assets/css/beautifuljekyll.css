@@ -255,13 +255,16 @@ img {
   word-break: break-word;
 }
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-  white-space: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding: 0.625rem;
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
   color: {{ site.navbar-text-col | default: "#404040" }};
+  overflow: ellipsis;
 }
 
 @media (min-width: 1200px) {
@@ -590,6 +593,7 @@ footer .footer-custom-content {
 /* Tags page */
 
 .tag-btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0.3125rem;
 }
 

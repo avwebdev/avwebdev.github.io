@@ -28,6 +28,9 @@ Dockerfile text eol=lf
 # VSCode files
 *.json text eol=lf
 
+# Config files
+.prettierrc linguist-language=JSON
+
 # General multimedia files
 *.jpg binary
 *.jpeg binary

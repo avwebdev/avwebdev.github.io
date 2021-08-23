@@ -15,9 +15,6 @@ author: AV Web
 
 navbar-links:
   About Us: "about"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
 
 # --- Logo --- #
 
@@ -72,7 +69,7 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: true
+  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -108,7 +105,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # The keywords to associate with your website, for SEO purposes
 keywords: "amador,valley,high,school,web,development,club"

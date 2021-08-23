@@ -1,78 +1,14 @@
 ---
 layout: post
 title: Donversity
+website: https://donversity.amadorweb.org/
 subtitle: A week-long event that celebrates our school's diversity
 gh-repo: avwebdev/donversity2021
-gh-badge: [star, watch, fork]
-tags: [test]
+gh-badge: [star, watch]
+tags: [React, TypeScript, Firebase, Google Analytics, GitHub Actions, Git]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Donversity is a website created to celebrate Amador Valley High School's diversity in a virtual format. Amador generally has a Donversity rally every year, but due to the COVID-19 pandemic, this was not possible in 2021. Within a few weeks, AV Web's officers bootstrapped a functional and responsive website to ensure that Amador students can still celebrate Amador's diversity despite not being in-person.
 
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :----- | :---------- | :-------------- |
-| Five   | Six         | Four            |
-| Ten    | Eleven      | Nine            |
-| Seven  | Eight       | Six             |
-| Two    | Three       | One             |
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-```
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function (x) {
-  return x + 5;
-};
-foo(3);
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+We built the website with [React](/tags#React), [TypeScript](/tags#TypeScript), and [Firebase](/tags#Firebase). We also created a CI/CD pipeline with [GitHub Actions](/tags/#GitHub%20Actions) for automated tests, builds, and deploys. [**Check out the website!**](https://donversity.amadorweb.org/)
