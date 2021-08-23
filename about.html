@@ -15,4 +15,16 @@ subtitle: Learn more about us!
     useful resources and building real-world web applications with the purpose
     of benefiting our school and the local community. Our current officers are
   </p>
+
+  <p class="officers">
+    Our officers this year are {% for officer in site.officers %}{% if
+    forloop.first != true %},{% if forloop.last == true %} and{% endif %}{%
+    endif %} {% if officer.website %}<a
+      href="{{officer.website}}"
+      target="_blank"
+      title="{{officer.name}} ({{officer.position}})"
+      >{{officer.name}}</a
+    >{% else %}{{ officer.name }}{% endif %} ({{ officer.position }}){% endfor
+    %}.
+  </p>
 </div>

@@ -72,25 +72,31 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
+  vk: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
 # url-pretty: "MyWebsite.com"
 
 officers:
-  - name: Yash Totale
-    website: https://yashtotale.web.app/
   - name: Subha Das
     website: https://www.linkedin.com/in/subha-das-760b861aa/
+    position: Co-President
   - name: Aron Thakur
     website: https://www.linkedin.com/in/aron-thakur-910846209/
+    position: Co-President
+  - name: Yash Totale
+    website: https://yashtotale.web.app/
+    position: Vice President
   - name: Keerthi Kalyaan
     website: https://www.linkedin.com/in/keerthi-kalyaan-004a9018a/
-  - name: Saahas Buricha
-    website: https://www.linkedin.com/in/saahas-buricha-430896217/
+    position: Secretary
   - name: Jiakang Chen
     website: https://www.linkedin.com/in/jiakang-chen-78b83820a/
+    position: Treasurer
+  - name: Saahas Buricha
+    website: https://www.linkedin.com/in/saahas-buricha-430896217/
+    position: Public Relations
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50

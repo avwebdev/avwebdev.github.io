@@ -13,6 +13,7 @@
           %},{% endif %} {% if officer.website %}<a
             href="{{officer.website}}"
             target="_blank"
+            title="{{officer.name}} ({{officer.position}})"
             >{{officer.name}}</a
           >{% else %}{{ officer.name }}{% endif %}{% endfor %}
         </div>
