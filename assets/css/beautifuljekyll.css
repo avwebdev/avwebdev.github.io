@@ -557,6 +557,12 @@ footer .footer-custom-content {
   max-height: 6.25rem;
 }
 @media (max-width: 500px) {
+  .post-preview .post-subtitle {
+    font-size: 1.2rem;
+  }
+  .post-preview .post-entry {
+    font-size: 1rem;
+  }
   .post-preview .post-image {
     display: none;
   }
