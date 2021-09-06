@@ -32,7 +32,7 @@
         {%- endif -%}
       {%- endfor -%}
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           {%- for post in site.posts -%}
               <a class="dropdown-item" href="{{ post.url | absolute_url }}">{{ post.title }}</a>

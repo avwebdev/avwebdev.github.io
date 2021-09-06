@@ -97,6 +97,13 @@ officers:
     website: https://www.linkedin.com/in/saahas-buricha-430896217/
     position: Public Relations
 
+meeting_info:
+  time: lunch
+  day: Monday
+  room: I-5
+  interval: weekly
+  teacher: Mr. Benson
+
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
