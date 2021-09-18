@@ -3,5 +3,5 @@
 ---
 
 <p align="center">
-  <a href="https://avwebdev.github.io/"><img src="https://img.shields.io/website?url=https%3A%2F%2Favwebdev.github.io%2F&labelColor=000000&label=Website&style=flat-square" /></a>
+  <a href="https://avwebdev.github.io/"><img src="https://img.shields.io/website?url=https%3A%2F%2Famadorweb.org%2F&labelColor=000000&label=Website&style=flat-square" /></a>
 </p>
